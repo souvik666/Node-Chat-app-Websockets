@@ -1,0 +1,84 @@
+.logo{
+    display: block;
+    margin: auto;
+    height: 50px;
+    width: 50px;
+    border-radius: 30%;
+    padding: 10px;
+    border-color: yellow;
+
+}
+
+.container {
+    max-width: 95px;
+    background-color: white;
+    margin: auto;
+    display: block;
+    height: 55vh;
+    border-radius: 5px;
+    max-width: 955px;
+    margin: auto;
+    padding: 33px;
+    overflow: scroll;
+    margin-bottom: 23px;
+    overflow-y: auto;
+}
+
+body {
+    background-image: url(./sky.webp);
+    max-width: auto;
+    display: block;
+    border-radius: none;  
+
+}
+
+.message {
+    background-color: #d1df08;
+    width: 30%;
+    border-radius: 10px;
+    border-color: #003c80;
+    padding: 9px;
+    margin: 17px 10px;
+
+}
+
+.left{
+    float: left;
+    clear: both;
+    background-color: #c6e2e7;
+}
+
+.right {
+    float: right;
+    clear: both;
+    background-color: #ffff86;
+}
+
+#send-container {
+   
+    text-align: center;
+    max-width: 985px;
+    width: 100%;
+    display: block;
+    margin: auto;
+    
+}
+
+#messageInp{
+    width: 91%;
+    border: 2px solid #729e2f2f;
+    border-radius: 6px;
+    height: 34px;
+}
+
+.btn{
+    cursor:pointer;
+    border-radius: 2px;
+    border: 2px #d1df08;
+    height: 34px;
+    background-color:#fdcf7a;
+
+
+    
+}
+

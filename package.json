@@ -1,0 +1,16 @@
+{
+  "name": "nodeserver",
+  "version": "1.0.0",
+  "description": "this is a nodeServer for ecrop",
+  "main": "index.js", 
+  "scripts": {
+    "server":"nodemon nodeServer/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "souvik dutta",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.7",
+    "socket.io": "^4.0.1"
+  }
+}
