@@ -2,7 +2,6 @@
 const io = require('socket.io')(8000)
 const users = {};
 
-//io.on is socket.io instance to liseten who is concecting to ecrop//
 
 io.on('connection', socket =>{
     socket.on('new-user-joined', name =>{
